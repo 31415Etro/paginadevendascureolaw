@@ -271,6 +271,23 @@ function HeroSection() {
               </SecondaryButton>
             </div>
 
+            <div className="relative z-10 mt-8 xl:hidden">
+              <div className="relative overflow-hidden rounded-[28px] border border-white/70 bg-white/85 p-3 shadow-[0_24px_70px_rgba(15,23,42,0.08)] backdrop-blur-xl">
+                <div className="relative overflow-hidden rounded-[22px]">
+                  <img
+                    src={heroPhoto}
+                    alt="Profissional da Cureo Law"
+                    className="h-[22rem] w-full object-cover object-center sm:h-[28rem]"
+                  />
+                  <div className="absolute inset-x-0 bottom-0 h-28 bg-[linear-gradient(180deg,_rgba(2,6,23,0),_rgba(2,6,23,0.72))]" />
+                  <div className="absolute inset-x-0 bottom-0 p-5 text-white sm:p-6">
+                    <p className="max-w-sm font-heading text-2xl font-semibold leading-tight sm:text-3xl">
+                      Atendimento jurídico com estratégia, urgência e confiança.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div className="relative z-10 hidden xl:block">

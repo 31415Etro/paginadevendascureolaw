@@ -27,10 +27,12 @@ export function TestimonialsSection({ title, description, testimonials, classNam
             </div>
           </div>
 
-          <div className="grid w-full gap-4 sm:hidden">
-            {testimonials.map((testimonial, index) => (
-              <TestimonialCard key={index} {...testimonial} className="max-w-none min-w-0" />
-            ))}
+          <div className="block w-full sm:hidden">
+            <div className="grid w-full gap-4">
+              {testimonials.map((testimonial, index) => (
+                <TestimonialCard key={index} {...testimonial} className="max-w-none min-w-0" />
+              ))}
+            </div>
           </div>
 
           <div className="pointer-events-none absolute inset-y-0 left-0 hidden w-1/4 bg-gradient-to-r from-white via-white/90 to-transparent sm:block" />
