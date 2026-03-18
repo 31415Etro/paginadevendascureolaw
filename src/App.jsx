@@ -247,7 +247,7 @@ function Header() {
 
 function HeroSection() {
   return (
-    <section id="inicio" className="relative overflow-hidden pt-36 sm:pt-36">
+    <section id="inicio" className="relative overflow-hidden pt-[13.5rem] sm:pt-36">
       <BackdropOrbs />
       <div className="mx-auto max-w-7xl px-4 pb-14 pt-6 sm:px-6 sm:pb-16 sm:pt-8 lg:px-8 lg:pb-24 lg:pt-12">
         <div className="grid items-start gap-10 xl:grid-cols-[minmax(0,1.08fr)_minmax(360px,0.92fr)] xl:gap-12">
