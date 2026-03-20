@@ -173,7 +173,7 @@ const faqItems = [
 
 const contactLinks = {
   whatsapp:
-    'https://wa.me/5521971717830?text=Plano%20negou%20meu%20tratamento%2C%20gostaria%20de%20falar%20com%20um%20advogado',
+    'https://wa.me/5511977194115?text=Plano%20negou%20meu%20tratamento%2C%20gostaria%20de%20falar%20com%20um%20advogado',
   form: '#contato',
   email: 'suporte@cureolaw.com',
 }
